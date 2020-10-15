@@ -1,0 +1,61 @@
+
+
+#homePage{
+  height: 100vw;
+  background-image: linear-gradient(275deg,#025373,#69b7bf);
+  
+}
+#myWorkPage {
+  height: 100vw;
+  background-image: linear-gradient(285deg,#025373,#69b7bf);
+}
+#contactPage {
+  height: 100vw;
+  background-color: #69b7bf;
+background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
+body > * {
+  padding: 1em;
+  margin: .75em;
+}
+header{
+  min-height: 10vh;
+  color: black;
+}
+
+nav{
+  padding: 1em;
+}
+li {
+  font-size: 1.3vw;
+  border-style: solid;
+  border-color: #025e73;
+  border-width: 2px;
+  border-radius: 10px;
+  margin-right: 10vw;
+  
+}
+.horchata {
+  color:#eede8e;
+  font-weight: bold;
+}
+li:hover{
+  background-image: linear-gradient(#69b7bf,#025373);
+  border-color: #025373;
+}
+main {
+    margin-top: 5em;
+    min-height: 50vh;
+    text-align: justify;
+}
+
+footer {
+  min-height: 15vh;
+  border:2px solid #025e73;
+  border-radius: 10px;
+  color: black;
+  padding: 1em;
+  margin-top: 5em;  
+}
